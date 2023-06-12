@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">  
+    <link rel="icon" type="image/x-icon" href="download-removebg-preview.png">
+    <title>Ulina</title>
+</head>
+<body>
+
+
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+           <div class="logo">
+            <img src="download-removebg-preview.png" alt="">
+           </div>
+
+
+            <span class="text-2xl">Ulina</span>
+          </a>
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#">Home</a></li>
+              <li><a class="menu__item" href="#">Shop</a></li>
+              <li><a class="menu__item" href="#">Team</a></li>
+              <li><a class="menu__item" href="#">Contact</a></li>
+              <li><a class="menu__item" href="#">About Us</a></li>
+            </ul>
+          </div>
+          
+          <nav class="nav md:mr-auto md:py-1 md:pl-2 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            
+            <a href="#" class="mr-6 hover:text-gray-900 text-base">Home</a>
+            <div class="dropdown mr-5">
+                <span>Categories </span>
+                <i class='bx bxs-chevron-down'></i>
+                <div class="dropdown-content">
+                    <p>Cloth</p>
+                    <p>Bags</p>
+                    <p>Watches</p>
+                    <p>Jewellery</p>
+                </div>
+            </div>
+            <div class="dropdown mr-5">
+                <span>Shop</span>
+                <i class='bx bxs-chevron-down'></i>
+                <div class="dropdown-content">
+                    <p>Watches</p>
+                    <p>Shirts</p>
+                    <p>Pants</p>
+                    <p>Shoe</p>
+                </div>
+                </div>
+            <a href="#" class="mr-6 hover:text-gray-900 text-base">Pages</a>
+            <a href="#" class="mr-6 hover:text-gray-900 text-base">Blog</a>
+            <a href="#" class="mr-6 hover:text-gray-900 text-base">Contact</a>
+            
+            
+
+            
+          </nav>
+          
+          
+          <div class="navicon">
+           <a href="#"><i class='bx bxl-facebook mx-1'></i></a>
+           <a href="#"><i class='bx bxl-twitter mx-1'></i></a>
+           <a href="#"><i class='bx bxl-linkedin mx-1' ></i></a>
+           <a href="#"><i class='bx bxl-instagram mx-1'></i></a>
+           <div class="dropdown md:ml-2 md:pl-3 md:border-l border-gray-400 text-sm">
+            <span>EN</span>
+             <i class='i2 bx bxs-chevron-down'></i>
+             <div class="dropdown-content">
+              <a href="esp.html">  <p class="text-sm">ESP</p></a>
+            </div>
+            </div>
+           <p class="text-sm ml-6">USD</p>
+           <i class='bx bx-search-alt md:ml-3 md:pl-24 md:border-l border-gray-400 font-semibold'></i>
+           <a href="/signup.html"> <i class='bx bxs-user pl-3 '></i> </a>
+           <i class='cart bx bxs-cart pl-3'></i>
+           <i class='i1 bx bx-support pl-6'></i> <span class="text-xs mr-5 ml-1 mt-2">Helpline <br> +123-456-7890 </span>
+        </div>
+
+        
+
+        </div>
+
+        
+      </header>
+      
+
+      <section class="hero text-gray-700 body-font">
+        <div class="container mx-auto flex px-32 py-32 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="text-base text-gray-700">SUMMER SALE IS ON
+            </h1>
+            <p class="mb-4 leading-relaxed text-4xl">Discover Men's <br>New Fashion </p>
+            <div class="flex justify-center">
+             <a href="#Explore"> <button class="inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-600 duration-300 rounded-full text-lg">Explore Now</button>
+             </a>
+            </div>
+          </div>
+          
+            <img class="rounded-full" alt="hero" src="360_F_182334324_Snk2BsBEBSgCUWw1KcevXhe3iuyBbRyu.jpg">
+        </div>  
+        </div>
+      </section>
+
+      <section class="text-gray-600 bg-white body-font">
+        <div class="container1 px-32 py-16 mx-auto">
+          <div class="flex flex-wrap sm:-m-4 -mx-2 -mb-10 -mt-4 md:space-y-0 space-y-6">
+            <div class="box1 p-4 md:w-1/3 flex">
+              <div class="icon1 w-16 h-16 inline-flex items-center justify-center rounded-full bg-gray-200 text-indigo-500 mt-1 flex-shrink-0">
+                <svg  height="44" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M8 19C9.10457 19 10 18.1046 10 17C10 15.8954 9.10457 15 8 15C6.89543 15 6 15.8954 6 17C6 18.1046 6.89543 19 8 19Z" stroke="gray" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M18 19C19.1046 19 20 18.1046 20 17C20 15.8954 19.1046 15 18 15C16.8954 15 16 15.8954 16 17C16 18.1046 16.8954 19 18 19Z" stroke="gray" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M10.05 17H15V6.6C15 6.26863 14.7314 6 14.4 6H1" stroke="gray" stroke-linecap="round"/> <path d="M5.65 17H3.6C3.26863 17 3 16.7314 3 16.4V11.5" stroke="gray" stroke-linecap="round"/> <path d="M2 9L6 9" stroke="gray" stroke-linecap="round" stroke-linejoin="round"/> <path d="M15 9H20.6101C20.8472 9 21.0621 9.13964 21.1584 9.35632L22.9483 13.3836C22.9824 13.4604 23 13.5434 23 13.6273V16.4C23 16.7314 22.7314 17 22.4 17H20.5" stroke="gray" stroke-linecap="round"/> <path d="M15 17H16" stroke="gray" stroke-linecap="round"/> </svg>
+              </div>
+              <div class="service flex-grow pl-6">
+                <h2 class="text-gray-600 text-xl mb-2 mt-2">Free Shipping</h2>
+                <p class="leading-relaxed text-sm">With Ulina get your package delivered for no extra charge.</p>
+              </div>
+            </div>
+            <div class="box2 p-4 md:w-1/3 flex">
+              <div class="icon1 w-16 h-16 inline-flex items-center justify-center rounded-full bg-gray-200 text-indigo-500 mt-2 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40" fill="gray" class="bi bi-credit-card" viewBox="0 0 16 16"> <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/> <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/> </svg>
+              </div>
+              <div class="flex-grow pl-6">
+                <h2 class="text-gray-600 text-xl mb-2 mt-3">Secured Payment</h2>
+                <p class="leading-relaxed text-sm">No need to worry on being hacked or fished during online payment.</p>
+              </div>
+            </div>
+
+          <div class="box3 p-4 md:w-1/3 flex ">
+              <div class="icon1 w-16 h-16 inline-flex items-center justify-center rounded-full bg-gray-200 text-indigo-500 mt-2 flex-shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40" fill="gray" class="bi bi-clock-history" viewBox="0 0 16 16"> <path d="M8.515 1.019A7 7 0 0 0 8 1V0a8 8 0 0 1 .589.022l-.074.997zm2.004.45a7.003 7.003 0 0 0-.985-.299l.219-.976c.383.086.76.2 1.126.342l-.36.933zm1.37.71a7.01 7.01 0 0 0-.439-.27l.493-.87a8.025 8.025 0 0 1 .979.654l-.615.789a6.996 6.996 0 0 0-.418-.302zm1.834 1.79a6.99 6.99 0 0 0-.653-.796l.724-.69c.27.285.52.59.747.91l-.818.576zm.744 1.352a7.08 7.08 0 0 0-.214-.468l.893-.45a7.976 7.976 0 0 1 .45 1.088l-.95.313a7.023 7.023 0 0 0-.179-.483zm.53 2.507a6.991 6.991 0 0 0-.1-1.025l.985-.17c.067.386.106.778.116 1.17l-1 .025zm-.131 1.538c.033-.17.06-.339.081-.51l.993.123a7.957 7.957 0 0 1-.23 1.155l-.964-.267c.046-.165.086-.332.12-.501zm-.952 2.379c.184-.29.346-.594.486-.908l.914.405c-.16.36-.345.706-.555 1.038l-.845-.535zm-.964 1.205c.122-.122.239-.248.35-.378l.758.653a8.073 8.073 0 0 1-.401.432l-.707-.707z"/> <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z"/> <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z"/> </svg>
+              </div>
+              <div class="flex-grow pl-6">
+                <h2 class="text-gray-600 text-xl mb-2 mt-4">24/7 Support</h2>
+                <p class="leading-relaxed text-sm">Need our assistance any time anywhere ? Just leave a message.</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+   
+
+      <section class="latestarrival bg-white px-32 py-24">
+        <div class="center-text">
+          <h2>Latest Arrival</h2>
+        </div>
+
+        <div class="products">
+          <div class="row">
+            <img src="2211.png" alt="">
+            <div class="product-text2">
+              <h5>SALE</h5>
+            </div>
+            <div class="producticon">
+              <i class='bx bx-cart-add' ></i>
+              <span><i class='bx bx-heart' ></i></span>
+            </div>
+            <div class="ratting">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <div class="price">
+              <h4>Blue T-shirt</h4>
+              <p>$49</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="11.png" alt="">
+            <div class="product-text">
+              <h5>HOT</h5>
+            </div>
+            <div class="producticon">
+              <i class='bx bx-cart-add' ></i>
+              <span><i class='bx bx-heart' ></i></span>
+            </div>
+            <div class="ratting">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <div class="price">
+              <h4>Black Plain Shirt</h4>
+              <p>$14</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="dff.png" alt="">
+            <div class="product-text2">
+              <h5>New</h5>
+            </div>
+            <div class="producticon">
+              <i class='bx bx-cart-add' ></i>
+              <span><i class='bx bx-heart' ></i></span>
+            </div>
+            <div class="ratting">
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <div class="price">
+              <h4>White Jacket</h4>
+              <p>$79</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+        
+            <div class="wrapper px-32 py-16 bg-white">
+                
+                <div class="gallery">
+                    <div class="gallery__item gallery__item--1">
+                        <a href="##" class="gallery__link">
+                            <img src="360_F_182334324_Snk2BsBEBSgCUWw1KcevXhe3iuyBbRyu.jpg" class="gallery__image" />
+                            <div class="gallery__overlay">
+                              <h1 class="text-sm mb-2">Ulina's Special</h1>
+                              <h2 class="mb-2 text-center">Men's New Collection</h2>
+                                <span class="text-xs">Shop Now</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__item gallery__item--2">
+                        <a href="##" class="gallery__link">
+                            <img src="5378525-vans-shoes-feet-design-product-product-photo-shoe-trainer-sneaker-fashion-cube-jeans-box-lace-leg-shoelace-resting-minimal-faceless-pink-public-domain-images.jpg" class="gallery__image" />
+                            <div class="gallery__overlay">
+                              <h1 class="text-sm mb-2">New Arrival</h1>
+                              <h2 class="mb-2 text-center">Exclusive Shoe Collection</h2>
+                                <span class="text-xs">Explore Now</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__item gallery__item--3">
+                        <a href="##" class="gallery__link">
+                            <img src="00457867-01-1440x1920.jpg" class="gallery__image" />
+                            <div class="gallery__overlay">
+                              <h1 class="text-sm mb-2">New in 2023</h1>
+                              <h2 class="mb-2 text-center">Discover New Bag Collection</h2>
+                                <span class="text-xs">Explore Now</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__item gallery__item--4">
+                        <a href="##" class="gallery__link">
+                            <img src="461bc5a9e6f29c701dcb0fb8f319614d.jpg" class="gallery__image" />
+                            <div class="gallery__overlay">
+                              <h1 class="text-sm mb-2">Couple Fashion</h1>
+                              <h2 class="mb-2 text-center">Best Collection for Couple</h2>
+                                <span class="text-xs">Explore Now</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__item gallery__item--5">
+                        <a href="#" class="gallery__link">
+                            <img src="photo-1567515004624-219c11d31f2e.jfif" class="gallery__image" />
+                            <div class="gallery__overlay">
+                              <h1 class="text-sm mb-2">Get 49% Off</h1>
+                              <h2 class="mb-2 text-center">Ulina Trendy Glasses</h2>
+                                <span class="text-xs">Shop Now</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__item gallery__item--6">
+                        <a href="#" class="gallery__link">
+                            <img src="target-cat-jack-kids-clothing.jpg" class="gallery__image" />
+                            <div class="gallery__overlay">
+                              <h1 class="text-sm mb-2">Stylish Kids</h1>
+                              <h2 class="mb-2 text-center">Ulina Trendy Kids Fashion</h2>
+                                <span class="text-xs">Shop Now</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <section class="bannerbody text-gray-600 body-font"> 
+              <div class="container mx-auto flex px-32 py-16  md:flex-row flex-col items-center">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                  <h5 class="mt-2">Featured Product</h5>
+                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Ulima Fashionable Jeans</h1>
+                  <p class="mb-8 leading-relaxed">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
+                  <div class="flex w-full md:justify-start justify-center items-end">
+               <div class="pricing">
+                <p>Price Dropped !!!</p>
+                <h1 class="font-semibold text-2xl mr-6 text-center">$199</h1>   
+               </div>
+                    <button class="inline-flex text-white bg-gray-500 border-0 py-1 px-4 focus:outline-none hover:bg-gray-600 duration-300 rounded-full text-lg">Buy Now</button>
+                  </div>
+                  <p class="text-sm mt-4 text-gray-600 mb-2 w-full">Ends In</p>
+                  <div class="flex lg:flex-row md:flex-col">
+                    <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none rounded-full">
+                      <span class="ml-0 flex items-start flex-col leading-none">
+                        <span class="title-font font-medium">2</span>
+                      </span>
+                    </button>
+                    
+                  
+                    <button class="ml-2 bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none rounded-full">
+                      <span class="ml-0 flex items-start flex-col leading-none">
+                        <span class="title-font font-medium">17</span>
+                      </span>
+                    </button>
+                    <button class="ml-2 bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none rounded-full">
+                      <span class="ml-0 flex items-start flex-col leading-none">
+                        <span class="title-font font-medium">32</span>
+                      </span>
+                    </button>
+                    <button class="ml-2 bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none rounded-full">
+                      <span class="ml-0 flex items-start flex-col leading-none">
+                        <span class="title-font font-medium">15</span>
+                      </span>
+                    </button>
+                   </div>
+                  <div class="timetext">
+                    <h1>DAYS</h1>
+                    <h1>HRS</h1>
+                    <h1>MINS</h1>
+                    <h1>SEC</h1>
+                  </div>
+                </div>
+                
+                <div class="banner lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                  <img class="object-cover object-center rounded ml-24" alt="hero" src="Untitled_design__1_-removebg-preview.png">
+                </div>
+              </div>
+              
+            </section>
+
+
+            <section class="latestarrival bg-white px-32 py-24">
+              <div class="center-text">
+                <h2>Popular Product</h2>
+              </div>
+      
+              <div class="products">
+                <div class="row">
+                  <img src="Maestoso-Eon-Mini-White-2.jpg" alt="">
+                  
+                  <div class="product-text">
+                    <h5>HOT</h5>
+                  </div>
+                 
+                  <div class="producticon">
+                    <i class='bx bx-cart-add' ></i>
+                    <span><i class='bx bx-heart' ></i></span>
+                  </div>
+                  <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  </div>
+                  <div class="price">
+                    <h4 class="text-gray-700">White Leather Bag</h4>
+                    <p class="text-gray-700 mb-2">$49</p>
+                  </div>
+                </div>
+      
+                <div class="row">
+                  <img src="Untitled design (2).png" alt="">
+                  <div class="producticon">
+                    <i class='bx bx-cart-add' ></i>
+                    <span><i class='bx bx-heart' ></i></span>
+                  </div>
+                  <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  </div>
+                  <div class="price">
+                    <h4>Luxury Maroon Sweater</h4>
+                    <p>$29</p>
+                  </div>
+                </div>
+      
+                <div class="row">
+                  <img src="Untitled design (2)1.png" alt="">
+                  <div class="product-text2">
+                    <h5>New</h5>
+                  </div>
+                  <div class="producticon">
+                    <i class='bx bx-cart-add' ></i>
+                    <span><i class='bx bx-heart' ></i></span>
+                  </div>
+                  <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  </div>
+                  <div class="price">
+                    <h4>Louse Cotton Tops</h4>
+                    <p>$89</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <img src="Untitled design (212).png" alt="">
+                  <div class="product-text2">
+                    <h5>New</h5>
+                  </div>
+                  <div class="producticon">
+                    <i class='bx bx-cart-add' ></i>
+                    <span><i class='bx bx-heart' ></i></span>
+                  </div>
+                  <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  </div>
+                  <div class="price">
+                    <h4>Silk Blazer Suit for Men</h4>
+                    <p>$49</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <img src="222.png" alt="">
+                  <div class="product-text">
+                    <h5>HOT</h5>
+                  </div>
+                  <div class="producticon">
+                    <i class='bx bx-cart-add' ></i>
+                    <span><i class='bx bx-heart' ></i></span>
+                  </div>
+                  <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  </div>
+                  <div class="price">
+                    <h4>Mini Sleeve Gray T-shirt</h4>
+                    <p>$49</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <img src="23w.png" alt="">
+                  <div class="product-text2">
+                    <h5>SALE</h5>
+                  </div>
+                  <div class="producticon">
+                    <i class='bx bx-cart-add' ></i>
+                    <span><i class='bx bx-heart' ></i></span>
+                  </div>
+                  <div class="ratting">
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                    <i class='bx bxs-star' ></i>
+                  </div>
+                  <div class="price">
+                    <h4>Women Long Cardigans</h4>
+                    <p>$49</p>
+                  </div>
+                </div>
+      
+              </div>
+            </section>
+
+            <section class="itembody text-gray-600 body-font">
+              <div class="container px-32 py-24 mx-auto">
+                <h1 class="text-2xl mb-8 text-gray-700">Shop By Category</h1>
+                <div class="flex flex-wrap -m-4">
+                  <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="item block relative h-48 rounded overflow-hidden">
+                      <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Wardrobe-1024x569.jpg">
+                    </a>
+                    <div class="mt-2">
+                     <h2 class="text-gray-900 title-font text-lg font-medium text-center">Cloths</h2>
+                      <p class="text-center">192 Items</p>
+                    </div>
+                  </div>
+                  <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="item block relative h-48 rounded overflow-hidden">
+                      <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Bentley-handbags-for-Rs-3-40-lakh-upwards-1-16.jpg">
+                    </a>
+                    <div class="mt-2">
+                      <h2 class="text-gray-900 title-font text-lg font-medium text-center">Bags</h2>
+                      <p class="text-center">55 Items</p>
+                    </div>
+                  </div>
+                  <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="item block relative h-48 rounded overflow-hidden">
+                      <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="3-Watch-Collection-Gear-Patrol-Lead-Full.jpg">
+                    </a>
+                    <div class="mt-2">
+                      <h2 class="text-gray-900 title-font text-lg font-medium text-center">Watches</h2>
+                      <p class="text-center">125 Items</p>
+                    </div>
+                  </div>
+                  <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="item block relative h-48 rounded overflow-hidden">
+                      <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="Model-wears-Garrard-high-jewellery-collection-Red-Rose-High-Jewellery-Suite-menu-2023-1.jpg">
+                    </a>
+                    <div class="mt-2">
+                      <h2 class="text-gray-900 title-font text-lg font-medium text-center">Jewellery</h2>
+                      <p class="text-center">99 Items</p>
+                    </div>
+                  </div>           
+                </div>
+              </div>
+            </section>
+
+            <section class="customer text-gray-600 body-font">
+              <div class="container px-32 py-24 mx-auto">
+                <h1 class="text-2xl font-medium title-font text-gray-900 mb-10 text-center">What Customers <br>Say About Us </h1>
+                <div class="flex flex-wrap -m-4">
+                  <div class="p-4 md:w-1/2 w-full">
+                    <div class="customerbox h-full bg-gray-100 p-8 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                        <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                      </svg>
+                      <div class="ratting">
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star text-xl'></i>
+                      </div>
+                      <p class="leading-relaxed mb-6">Totally satisfied with product and service Ulina is providing. We recently bought couple of jeans, shoes and jacket which were affordable as well as fancy. Just wanted to add, Ulina is the best brand for youth looking for something fancy yet affordable </p>
+                      <a class="inline-flex items-center">
+                        <img alt="testimonial" src="360_F_266272736_JqAyqk4q5GEM6M6kiX2s1UT0h63iw4q5.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                          <span class="title-font font-medium text-gray-900">Holden Group</span>
+                          <span class="text-gray-500 text-sm">Musical Band</span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="p-4 md:w-1/2 w-full">
+                    <div class="customerbox h-full bg-gray-100 p-8 rounded">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                        <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                      </svg>
+                      <div class="ratting">
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star text-xl'></i>
+                        <i class='bx bxs-star-half text-xl' ></i>
+                      </div>
+                      <p class="leading-relaxed mb-6">Totally satisfied with product and service Ulina is providing. We recently bought couple of jeans, shoes and jacket which were affordable as well as fancy. Just wanted to add, Ulina is the best brand for youth looking for something fancy yet affordable</p>
+                      <a class="inline-flex items-center">
+                        <img alt="testimonial" src="360_F_182334324_Snk2BsBEBSgCUWw1KcevXhe3iuyBbRyu.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                        <span class="flex-grow flex flex-col pl-4">
+                          <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+                          <span class="text-gray-500 text-sm">Model</span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+       
+           
+
+            
+      
+      
+            <footer class="text-gray-600 bg-gray-800 body-font">
+              <div class="container px-32 py-24 mx-auto">
+                <div class="flex flex-wrap md:text-left text-center order-first">
+                  <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-xl mb-3">Address</h2>
+                    <nav class="list-none mb-10">
+                      <li class="mb-2"> <span><i class='bx bxs-map text-sm ml'></i></span>
+                        <a class="text-gray-600">20, Awesome Road,<br>New York, Usa 4D BS3 </a>
+                      </li>
+                      <li class="mb-2"> <span><i class='bx bxs-phone-call text-sm'></i></span>
+                        <a class="text-gray-600">Second Link</a>
+                      </li>
+                      <li> <span><i class='bx bxs-envelope text-sm' ></i></span>
+                        <a class="text-gray-600">hello@ulina.com</a>
+                      </li>
+            
+                  </div>
+                  <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-semibold text-white tracking-widest text-xl mb-3">Useful Links</h2>
+                    <nav class="list-none mb-10">
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Shop Coupon</a>
+                      </li>
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">About Us</a>
+                      </li>
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Career</a>
+                      </li>
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Support</a>
+                      </li>
+                    </nav>
+                  </div>
+                  <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-semibold text-white tracking-widest text-xl mb-3">Categories</h2>
+                    <nav class="list-none mb-10">
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Men</a>
+                      </li>
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Women</a>
+                      </li>
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Kids</a>
+                      </li>
+                      <li>
+                        <a href="##" class="text-gray-600 hover:text-white">Accessories</a>
+                      </li>
+                    </nav>
+                  </div>
+                  <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                   
+                    <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                      <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                        <label for="footer-field" class="leading-7 text-sm text-white">Drop Your Email</label>
+                        <input type="text" id="footer-field" name="footer-field" class="mb-4 mt-4 w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                      </div>
+        
+                    </div>
+          
+                  </div>
+                </div>
+              </div>
+              <div class="bg-gray-800 px-32">
+                <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                  <a href="#" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+    
+                    <span class="ml-1 text-3xl text-white">Ulina</span>
+                  </a>
+                  <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4 ">© 2023 Ulina   
+                  </p>
+                  <span class="payicon inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a href="##" class="text-gray-500">
+                      <i class='bx bxl-paypal'></i>
+                    </a>
+                    <a href="##" class="ml-3 text-gray-500">
+                      <i class='bx bxl-mastercard' ></i>
+                    </a>
+                    <a href="##" class="ml-3 text-gray-500">
+                      <i class='bx bxl-visa' ></i>
+                    </a>
+                    <a href="##" class="ml-3 text-gray-500">
+                      <i class='bx bxl-amazon' ></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </footer>
+</body>
+</html>
